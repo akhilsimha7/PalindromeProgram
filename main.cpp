@@ -12,7 +12,7 @@ int main()
     cout << "Please enter the word to check if its Palindrome:";
     cin >> userInput;
     int length = userInput.size();
-    for (int i = 0; i < length; i++)
+    for (int i = 0; i < length/2; i++)
     {
         if (userInput[i] != userInput[length - i - 1])
         {
